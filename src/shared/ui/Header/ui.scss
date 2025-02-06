@@ -2,13 +2,13 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 12px;
+  padding: 11px;
   background-color: #ebebeb;
-  box-shadow: 0 0 15px black;
+  box-shadow: 0 0 20px black;
 }
 
 .logo {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: bold;
   cursor: pointer;
   color: #333;
@@ -22,7 +22,7 @@
 
 .nav li {
   text-decoration: none;
-  color: #222222;
+  color: black;
   font-size: 20px;
   font-weight: 600;
   cursor: pointer;

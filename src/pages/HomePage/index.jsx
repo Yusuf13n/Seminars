@@ -68,8 +68,8 @@ export const SeminarList = () => {
             </div>
 
             <div className="seminar-card-buttons">
-              <button className="seminar-btn" onClick={() => handleEdit(seminar)}>Редактировать</button>
-              <button className="seminar-btn delete"onClick={() => handleDelete(seminar.id)}>Удалить</button>
+              <button className="seminar-btn" onClick={() => handleEdit(seminar)}>Edit</button>
+              <button className="seminar-btn delete"onClick={() => handleDelete(seminar.id)}>Delete</button>
             </div>
           </li>
         ))}

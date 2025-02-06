@@ -80,8 +80,8 @@ const EditSeminarModal = ({ seminar, onClose, onUpdate }) => {
           </label>
 
           <div className="button-group">
-            <button type="button" onClick={handleClose}>Отмена</button>
             <button type="submit">Сохранить</button>
+            <button type="button" onClick={handleClose}>Отмена</button>
           </div>
         </form>
       </div>
