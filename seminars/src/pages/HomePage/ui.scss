@@ -1,0 +1,91 @@
+.seminar-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seminar-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(224, 224, 224);
+}
+
+.seminar-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  list-style: none;
+}
+
+.seminar-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 370px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out;
+}
+
+.seminar-card:hover {
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.seminar-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: left;
+  color: black;
+}
+
+.seminar-card-description,
+.seminar-card-info {
+  font-size: 15px;
+  color: black;
+  margin-bottom: 3px;
+}
+
+.seminar-card-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.seminar-btn {
+  flex: 1;
+  padding: 9px 0;
+  border: 1px solid #bbb;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 15px;
+  color: black;
+  transition: 0.4s ease-in-out;
+  text-align: center;
+}
+
+.seminar-btn:hover {
+  background-color: #e6e6e6;
+}
+
+.seminar-btn.delete {
+  background-color: rgb(32, 32, 32);
+  color: #ffffff;
+}
+
+.seminar-btn.delete:hover {
+  opacity: 0.9;
+}
+
+.loading {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+}
